@@ -12,9 +12,9 @@ a {
   text-decoration: none;
   color: black;
 }
-.end_nav {
+/* .end_nav {
   margin-right: 30px;
-}
+} */
 .start_nav {
   margin-left: 30px;
 }
@@ -22,14 +22,14 @@ a {
   margin-right: -30px;
   margin-left: -30px;
 }
-.first_item_nav {
+/* .first_item_nav {
   margin-right: -30px;
   margin-left: 30px;
-}
-.lost_item_nav {
+} */
+/* .lost_item_nav {
   margin-right: 30px;
   margin-left: -30px;
-}
+} */
 /* Model Example */
 .icon_models {
   display: flex;
