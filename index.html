@@ -3,126 +3,210 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>hair-salon</title>
+    <title>Ayesha — Hair &amp; Beauty Salon</title>
+    <meta
+      name="description"
+      content="Ayesha Hair Salon — expert colorists and stylists, premium products, and personalized hair care. Book your appointment online."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ayesha — Hair & Beauty Salon" />
+    <meta property="og:description" content="Expert colorists and stylists, premium products, personalized hair care." />
+    <link rel="icon" href="hair-salon.png" type="image/png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/stylesheet/style.css" />
-    <link rel="icon" href="hair-salon.png" type="image/x-icon" />
   </head>
   <body>
-    <header>
-      <nav class="nav_hero">
-        <a class="start_nav" href="index.html"
-          ><img src="assets/image/logo.png" alt="LogoMarca"
-        /></a>
-        <a class="space_nav_itens" href="index.html">HOME</a>
-        <a class="space_nav_itens" href="index.html">ABOUT</a>
-        <a class="space_nav_itens" href="index.html">SERVICES</a>
-        <a class="space_nav_itens" href="index.html">LOOKBOOK</a>
-        <a class="space_nav_itens" href="index.html">NEWS</a>
-        <a class="space_nav_itens" href="index.html">CONTACT</a>
-        <a class="space_nav_itens" href="index.html"
-          ><img src="assets/image/search.png" alt="Search"
-        /></a>
-        <a class="space_nav_itens" href="index.html"
-          ><img src="assets/image/book_online.png" alt="Book_Online"
-        /></a>
-      </nav>
-    </header>
-    <main>
-      <section class="container_hero">
-        <h1>BLONDE & HIGHLIGHT</h1>
-        <p class="below_h1">DIVIDE YOUR UNIQUENESS BY YOUR HAIRS IN TYLE</p>
-        <button class="button_hero">-OUR SERVICES</button>
-        <div class="box_hero">
-          <p class="detail_paragrafo_hero">YOUR FIRST VISIT?</p>
-          <p>-20% FOR THE FIRST CLASSIC HAIR COLORING</p>
-          <button class="button_box_hero">-BOOK ONLINE</button>
-        </div>
-        <div class="buttons_backgound-image">
-          <button class="button_slide">🠔</button>
-          <button class="button_slide">🠖</button>
-        </div>
-      </section>
-      <section class="container_itens_hero">
-        <div class="itens_hero">
-          <img
-            src="assets/image/expert_beauciticians.png"
-            alt="expert_beauticians"
-          />
-          <p class="itens_paragrafos_hero">EXPERT BEAUTICIANS</p>
-          <p class="itens_description_hero">
-            Beauty Experts dolor sit amet semiodicing elit moecenas sa floubus
-            mollis expo sol and beauty exten interdum
-          </p>
-        </div>
-        <div class="itens_hero">
-          <img src="assets/image/quality_services.png" alt="quality_services" />
-          <p class="itens_paragrafos_hero">QUALITY SERVICES</p>
-          <p class="itens_description_hero">
-            Hair Styling Services sit amet semiadicing elit moecenas sa foubus
-            mollis expo sail and beauty exten interdum
-          </p>
-        </div>
-        <div class="itens_hero">
-          <img src="assets/image/beauty_products.png" alt="beauty_products" />
-          <p class="itens_paragrafos_hero">BEAUTY PRODUCTS</p>
-          <p class="itens_description_hero">
-            Hair color or Product sit amet semiadicing elit maecenas sa faubus
-            mollis expo sall and beauty exten intendum
-          </p>
-        </div>
-      </section>
-      <section class="container_annoucent">
-        <div class="annoucent">
-          <div class="exemple_annoucent">
-            <img src="assets/image/video_annoucent.png" alt="video_annoucent" />
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <svg class="icon-sprite" aria-hidden="true">
+      <symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="7"/>
+        <path d="m21 21-4.35-4.35"/>
+      </symbol>
+      <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="5" width="18" height="16" rx="2"/>
+        <path d="M8 3v4M16 3v4M3 10h18"/>
+      </symbol>
+      <symbol id="icon-play" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M8 5v14l11-7z"/>
+      </symbol>
+      <symbol id="icon-instagram" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm5 5.5A4.5 4.5 0 1112 16.5 4.5 4.5 0 0112 7.5zm6.5-.75a1.25 1.25 0 11-2.5 0 1.25 1.25 0 012.5 0zM12 9a3 3 0 100 6 3 3 0 000-6z"/>
+      </symbol>
+      <symbol id="icon-facebook" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M22 12a10 10 0 10-11.56 9.87v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.88h-2.33v6.99A10 10 0 0022 12z"/>
+      </symbol>
+      <symbol id="icon-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M5 12h14M13 6l6 6-6 6"/>
+      </symbol>
+    </svg>
+
+    <header class="site-header" id="siteHeader">
+      <div class="container">
+        <a href="#" class="brand">Ayesha.</a>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+          <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="#" class="nav-link">Home</a></li>
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#team" class="nav-link">Team</a></li>
+            <li><a href="#offer" class="nav-link">Offers</a></li>
+          </ul>
+          <div class="nav-actions">
+            <button class="icon-btn" aria-label="Search"><svg class="icon"><use href="#icon-search"></use></svg></button>
+            <a href="#offer" class="btn btn-primary btn-sm">
+              <svg class="icon"><use href="#icon-calendar"></use></svg>
+              Book Online
+            </a>
           </div>
-          <h2>MAKE YOUR OWN MOMENTUM</h2>
-          <p class="p_exemple">
-            Hair Salon volutpat ut nisl in hendrerit. Vestibulum ante ipsum isul
-            primis in faucibus orci luctus et ultrices posuere cubilia Curaemill
-            Etiam porttitor lacus in luctus molestie, libero justo ullamcorper
-            nulla, sed lacinia erat metus eget diam. Morbi volutpat lectus sit
-            amet diam vestibious beauty products
-          </p>
-          <button class="button_annoucent">- READ MORE</button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero">
+        <div class="container">
+          <div class="reveal">
+            <h1>Blonde &amp; Highlight</h1>
+            <p class="lead">Discover your uniqueness, one hair color at a time. Personalized styling from a team that treats every visit like an event.</p>
+            <a href="#services" class="btn btn-outline">Our Services</a>
+
+            <div class="promo-card">
+              <p class="promo-title">Your First Visit?</p>
+              <p>Enjoy 20% off your first classic hair coloring session with us.</p>
+              <a href="#offer" class="btn btn-light btn-sm">Book Online</a>
+            </div>
+          </div>
+
+          <div class="hero-gallery reveal">
+            <img class="tall" src="assets/image/first_model.png" alt="Stylist working on a client's hair at Ayesha salon" loading="lazy" />
+            <img class="short" src="assets/image/second_model.png" alt="Colourist mixing hair color at Ayesha salon" loading="lazy" />
+          </div>
         </div>
       </section>
-      <section class="container_models">
-        <div class="icon_models">
-          <img src="assets/image/first_model.png" alt="first_model" />
-          <img src="assets/image/second_model.png" alt="second_model" />
-          <div>
-            <img
-              class="the_best"
-              src="assets/image/model_man.webp"
-              height="231px"
-              width="159px"
-              alt="model_man"
-            />
-            <div class="box_the_best">
-              <p>MAN GENERATED BY A.I</p>
-              <p>-THE BEST</p>
+
+      <section class="features tight" id="services">
+        <div class="container">
+          <div class="features-grid">
+            <div class="feature-item reveal">
+              <div class="feature-icon"><img src="assets/image/expert_beauciticians.png" alt="" loading="lazy" /></div>
+              <div>
+                <h3>Expert Beauticians</h3>
+                <p>Our certified stylists bring years of experience to every appointment, tailored to your unique style.</p>
+              </div>
+            </div>
+            <div class="feature-item reveal">
+              <div class="feature-icon"><img src="assets/image/quality_services.png" alt="" loading="lazy" /></div>
+              <div>
+                <h3>Quality Services</h3>
+                <p>From cut to color, every service is delivered with precision, care, and attention to detail.</p>
+              </div>
+            </div>
+            <div class="feature-item reveal">
+              <div class="feature-icon"><img src="assets/image/beauty_products.png" alt="" loading="lazy" /></div>
+              <div>
+                <h3>Beauty Products</h3>
+                <p>We use only premium, salon-grade products to protect, nourish, and enhance your hair.</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="exemple_model">
-        <p>COLOUR DAY OFFER!</p>
-        <h3>10% ON HAIRCUT COLOR AND HIGHLIGHT</h3>
-        <button class="button_model">- BOOK APPOINTMENT</button>
+
+      <section class="momentum">
+        <div class="container">
+          <div class="momentum-media reveal">
+            <img src="assets/image/video_annoucent.png" alt="Client having her hair styled at Ayesha salon" loading="lazy" />
+            <div class="play-btn"><svg class="icon"><use href="#icon-play"></use></svg></div>
+          </div>
+          <div class="momentum-text reveal">
+            <span class="eyebrow">About Ayesha</span>
+            <h2>Make Your Own Momentum</h2>
+            <p>
+              A great hairstyle is more than a look — it's a statement. Our
+              team works closely with you to find the color, cut, and finish
+              that make you feel like the best version of yourself, every
+              single time you walk through our doors.
+            </p>
+            <a href="#team" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
       </section>
-      <div class="info_lookboook"> 
-        <p>OUR LOOKBOOK</p>
-       </div>
-      <section class="grid-container">
-          <div class="grid-item1">1</div>
-          <div class="grid-item2">2</div>
-          <div class="grid-item3">3</div>
-          <div class="grid-item4">4</div>
-          <div class="grid-item5">5</div>
-          <div class="grid-item6">6</div>
+
+      <section class="team" id="team">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="eyebrow">Our Stylists</span>
+            <h2>Meet the Team</h2>
+            <p>The talented hands behind every transformation at Ayesha.</p>
+          </div>
+
+          <div class="team-grid">
+            <div class="team-card reveal">
+              <img src="assets/image/first_model.png" alt="Ayesha Lake, Styler" loading="lazy" />
+              <div class="team-label">
+                <p class="name">Ayesha Lake</p>
+                <p class="role">Styler</p>
+              </div>
+            </div>
+            <div class="team-card reveal">
+              <img src="assets/image/second_model.png" alt="Alita Willims, Colourist" loading="lazy" />
+              <div class="team-label">
+                <p class="name">Alita Willims</p>
+                <p class="role">Colourist</p>
+              </div>
+            </div>
+            <div class="team-card reveal">
+              <img src="assets/image/model_man.webp" alt="Man generated by A.I., Barber" loading="lazy" />
+              <div class="team-label">
+                <p class="name">Man Generated by A.I.</p>
+                <p class="role">— The Best</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-banner" id="offer">
+        <div class="container">
+          <span class="eyebrow">Colour Day Offer</span>
+          <h2>10% off Haircut, Color &amp; Highlight</h2>
+          <a href="#" class="btn btn-light">
+            <svg class="icon"><use href="#icon-calendar"></use></svg>
+            Book Appointment
+          </a>
         </div>
       </section>
     </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-top">
+          <div>
+            <p class="footer-brand">Ayesha.</p>
+            <p class="footer-tagline">Hair &amp; beauty salon crafted around your personal style.</p>
+          </div>
+          <div class="footer-socials">
+            <a href="#" aria-label="Instagram"><svg class="icon"><use href="#icon-instagram"></use></svg></a>
+            <a href="#" aria-label="Facebook"><svg class="icon"><use href="#icon-facebook"></use></svg></a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; <span id="year"></span> Ayesha Hair Salon. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/script/script.js"></script>
   </body>
 </html>
